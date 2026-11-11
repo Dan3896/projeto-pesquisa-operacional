@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 /.py
+
+# prints do formulario
+Captura de tela*.png
+/image.png
