@@ -7,7 +7,7 @@ Usa 13 rotas reais de entrega do [Amazon Last Mile Routing Research Challenge](h
 ## Como executar
 
 ```bash
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib scipy
 python tsp_entregas.py
 ```
 
@@ -15,6 +15,8 @@ Se a pasta `dados/amazon/` não existir, o script baixa os dados sozinho.
 
 ## Arquivos
 
+- `entrega_final.ipynb` — entrega da Etapa 2 (Colab: *Executar tudo*; requer também `scipy`)
+- `roteiro_video.md` e `roteiro_5min.md` — roteiros do vídeo (10min30s e 5 min)
 - `checkpoint1.md` — escopo, dados, justificativa do algoritmo e modelagem formal
 - `tsp_entregas.py` — protótipo (carga dos dados, VMP, 2-Opt, validação Held-Karp, gráficos)
 - `resultados/` — tabela comparativa e gráficos antes × depois
